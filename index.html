@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="frappe">
+    <meta property="og:type" content="website">
+    <meta name="language" content="en-US">
+
+
+
+    <title>FOSS | COLLEGE OF ENGINEERING ATTINGAL</title>
+
+
+    <link rel="shortcut icon" href="/files/foss_main@3x.png" type="image/x-icon">
+   
+   
+    <meta property=”og:image:width” content=”1200″/>
+    <meta property=”og:image:height” content=”630″/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link type="text/css" rel="stylesheet" href="/assets/css/custom.css">
+
+    <style data-web-template="Home Page - Hero and About Section">
+        .container {
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        .hero-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(360deg, #eaecf0 0%, #ffffff 90.79%);
+            flex-direction: column;
+            padding-top: 3.75rem;
+        }
+
+        .hero-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .hero-image {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #image-centre {
+            width: 16rem;
+            min-width: 16rem;
+        }
+
+        #image-end {
+            width: 8.47763rem;
+            min-width: 2.47763rem;
+        }
+
+        .hero-heading h4 {
+            font-size: var(--text-4xl);
+            line-height: 1.3;
+            letter-spacing: -0.1rem;
+        }
+
+        .hero-heading-a {
+            color: hsl(var(--clr-code-night-500));
+        }
+
+        .hero-heading-b {
+            color: hsl(var(--clr-foss-mint-500));
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-category {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .about-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 7rem;
+        }
+
+        .about-section-innerblock {
+            margin-top: -3.5rem;
+            display: flex;
+            padding: 3rem;
+            flex-direction: column;
+            border-radius: 0.5rem;
+            border: 0.4px solid hsl(var(--clr-gray-400));
+            background: #FFF;
+            gap: 1rem;
+        }
+
+        .about-section-main {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .about-section-tag {
+            color: hsl(var(--clr-foss-mint-500));
+            font-weight: var(--fw-semibold);
+        }
+
+        .about-section-text {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .about_subtext {
+            color: hsl(var(--clr-gray-500));
+            line-height: 1.5;
+        }
+
+        .goals-section {
+            margin-top: 0.75rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1.2rem;
+        }
+
+        .goals-card {
+            display: flex;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 0.4px solid hsl(var(--clr-gray-400));
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .goals-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: var(--text-xs);
+            font-weight: var(--fw-semibold);
+        }
+
+        .goals-card-tag {
+            color: hsl(var(--clr-gray-500));
+        }
+
+        .goals-card-number {
+            color: hsl(var(--clr-foss-mint-500));
+            text-align: right;
+        }
+
+        .goal-content {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            height: 100%;
+            justify-content: space-between;
+        }
+
+        .goal-text {
+            color: hsl(var(--clr-code-night-500));
+            font-weight: var(--fw-semibold);
+            line-height: 1.3;
+            letter-spacing: -0.04rem;
+        }
+
+        .goal-icon {
+            max-width: 2rem;
+        }
+
+
+        a{
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .hero-section {
+                padding-top: 3rem;
+            }
+            .hero-container {
+                gap: 2rem;
+            }
+            #image-centre {
+                width: 30vw;
+                min-width: 8rem;
+            }
+            #image-end {
+                width: 12vw;
+                min-width: 1.2rem;
+            }
+            .hero-heading {
+                text-align: center;
+            }
+            .button-container {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+            .button-category {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+            .about_headtext {
+                font-size: 1.2rem
+            }
+            .about-section-innerblock {
+                margin-top: -3rem;
+                padding: 2rem;
+            }
+            .goals-section {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <style data-web-template="Home Page - Programs Section">
+        .programs-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 7rem;
+            justify-content: center;
+        }
+
+        .programs-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 3rem;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .programs-card-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-between;
+            gap: 1.25rem;
+        }
+
+        .program-card {
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: .875rem;
+        }
+
+        .program-card:hover {
+            text-decoration: none;
+            border-radius: 0.5rem;
+            background: #FFF;
+            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        .program-card:hover>.program-card-cta {
+            color: var(--Foundation-FOSS-Mint-foss-mint-500, #08B74F);
+        }
+
+        .program-card h6 {
+            font-size: var(--text-xl);
+        }
+
+        .program-card-description>p {
+            color: var(--Gray-500, #667085);
+            font-weight: var(--fw-medium);
+            line-height: 1.5;
+        }
+
+        .program-card-cta {
+            display: flex;
+            align-items: center;
+            font-size: var(--text-sm);
+            font-weight: var(--fw-semibold);
+        }
+
+        .program-card-image img {
+            max-height: 4rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .programs-card-block {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+            }
+            .program-card {
+                padding: 1.25rem;
+                border-radius: 0.5rem;
+                border: 0.5px solid var(--Gray-200, #EAECF0);
+            }
+            .program-card:hover {
+                text-decoration: none;
+                background: #FFF;
+                box-shadow: none;
+            }
+        }
+    </style>
+    <style data-web-template="Home Page - Events">
+        .events-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .events-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 7rem;
+            flex-direction: column;
+        }
+
+        .events-subsection {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 3rem;
+            width: 100%;
+        }
+
+        .events-block {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-content: space-around;
+            gap: 2.5rem;
+            width: 100%
+        }
+
+        .flagship-event-card {
+            padding: 1.25rem;
+            display: grid;
+            align-items: flex-start;
+            gap: 0.75rem;
+        }
+
+        .flagship-event-card:hover {
+            text-decoration: none;
+            border-radius: 0.5rem;
+            background: #FFF;
+            box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+        }
+
+        .flagship-event-card:hover>.flagship-card-cta {
+            color: var(--Foundation-FOSS-Mint-foss-mint-500, #08B74F);
+        }
+
+        .flagship-card-image {
+            height: 1.75rem;
+        }
+
+        .flagship-card-heading {
+            font-size: var(--text-xl);
+        }
+
+        .flagship-card-desc {
+            color: var(--Gray-500, #667085);
+            font-weight: var(--fw-medium);
+            line-height: 1.5;
+        }
+
+        .flagship-card-cta {
+            display: flex;
+            align-items: center;
+            font-size: var(--text-sm);
+            font-weight: var(--fw-semibold);
+        }
+
+        @media screen and (max-width: 768px) {
+            .events-card-block {
+                grid-template-columns: 1fr;
+            }
+            .events-block {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+                width: 100%
+            }
+            .flagship-event-card {
+                border-radius: 0.5rem;
+                border: 0.5px solid var(--Gray-200, #EAECF0)
+            }
+            .flagship-event-card:hover {
+                text-decoration: none;
+                background: #FFF;
+                box-shadow: none;
+            }
+        }
+    </style>
+    <style data-web-template="Home Page - Team">
+        .team-section {
+            display: flex;
+            align-items: center;
+            margin-top: 7rem;
+            margin-bottom: 7rem;
+            justify-content: center;
+        }
+
+        .team-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 1.5rem;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .team-section-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .team-section-header a {
+            color: hsl(var(--clr-foss-mint-500));
+            font-weight: var(--fw-semibold);
+        }
+
+        .team-section-header a:hover {
+            text-decoration: none;
+        }
+
+        .team-block {
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+        }
+
+        .team-card {
+            padding: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .team-card-image {
+            display: flex;
+            justify-content: center;
+            max-width: 5rem;
+        }
+
+        .team-card-image>img {
+            max-width: 4rem;
+            border-radius: 50%;
+            aspect-ratio: 1/1;
+        }
+
+        .team-card-details {
+            display: flex;
+            flex-direction: column;
+            gap: 0.35rem;
+        }
+
+        .team-card-details p {
+            color: hsl(var(--clr-gray-500));
+            font-size: var(--text-sm);
+            font-weight: var(--fw-medium);
+            line-height: 1.3;
+        }
+
+        @media screen and (max-width: 768px) {
+            .team-block {
+                justify-content: space-between;
+                gap: 2rem;
+                grid-template-columns: 1fr;
+            }
+            .team-card {
+                padding: 0rem;
+            }
+        }
+    </style>
+    <style data-web-template="Home Page - Industry Partnership">
+        .ip-section {
+            display: flex;
+            margin-bottom: 7rem;
+        }
+
+        .ip-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            overflow: hidden;
+        }
+
+        .ip-content-block {
+            background: #F5F5F5;
+            display: flex;
+            padding: 1.87rem;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 2rem;
+        }
+
+        .ip-content-block img {
+            height: 3.75rem;
+        }
+
+        .ip-content-block p {
+            margin: 0.5rem 0 0 0;
+            color: hsl(var(--clr-gray-500));
+        }
+
+        .ip-content-block a {
+            color: hsl(var(--clr-foss-mint-500));
+            font-weight: var(--fw-medium);
+            letter-spacing: -0.05rem;
+        }
+
+        .ip-content-block a:hover {
+            text-decoration: none;
+        }
+
+        .ip-partners-block {
+            background: url('assets/fossunited/icons/ip_block_pattern.svg') no-repeat;
+            padding: 5rem;
+            display: flex;
+            justify-content: center;
+            background-size: cover;
+        }
+
+        .feature-partners {
+            background-color: #fff;
+            border-radius: 0.5875rem;
+            box-shadow: 0px 11.75px 35.25px 0px rgba(0, 0, 0, 0.15);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .feature-partners img {
+            max-width: 9rem;
+        }
+
+        @media screen and (max-width: 768px) {
+            .ip-container {
+                flex-direction: column-reverse;
+            }
+            .ip-content-block {
+                width: 100%;
+            }
+            .ip-partners-block {
+                background-size: cover;
+                padding: 4rem 1.75rem;
+            }
+            .feature-partners {
+                padding: 1rem;
+                flex-direction: column;
+            }
+            .feature-partners img {
+                max-width: 60%;
+                display: block;
+            }
+        }
+    </style>
+    <style data-web-template="Home Page - Contact">
+        .contact-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .contact-container {
+            display: flex;
+            padding: 3.75rem 0rem;
+            gap: 6.25rem;
+        }
+
+        .newsletter-block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1.25rem;
+            width: 50%;
+        }
+
+        .contacts-block {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.94rem;
+            width: 50%;
+        }
+
+        .newsletter-details {
+            display: flex;
+            gap: 0.94rem;
+            flex-direction: column;
+        }
+
+        .contact-container p {
+            color: hsl(var(--clr-gray-500));
+            line-height: 1.5;
+        }
+
+        .contacts-block a {
+            color: var(--Gray-500, #667085);
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            /* 1.4rem */
+            letter-spacing: -0.02rem;
+            text-decoration: underline;
+        }
+
+        .contacts-block a:hover {
+            color: var(--Foundation-FOSS-Mint-foss-mint-600, #07A748);
+        }
+
+        .vertical-separator {
+            border-left: 0.07rem solid hsl(var(--clr-gray-500));
+            height: 11.25rem;
+        }
+
+        .horizontal-separator {
+            width: 100%;
+            background-color: hsl(var(--clr-gray-500));
+            display: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .contact-container {
+                width: 100%;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            .newsletter-block {
+                width: 100%;
+            }
+            .contacts-block {
+                width: 100%;
+            }
+            .vertical-separator {
+                display: none;
+            }
+            .horizontal-separator {
+                display: block;
+            }
+        }
+    </style>
+    <script>
+        window.frappe = {};
+        frappe.ready_events = [];
+        frappe.ready = function(fn) {
+            frappe.ready_events.push(fn);
+        }
+        window.dev_server = 0;
+        window.socketio_port = 9000;
+        window.show_language_picker = false;
+    </script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  <nav>
+    <img src="files/foss_main@3x.png" alt="Logo" class="logo">
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+      <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Team</a></li>
+      </ul>
+  </nav>
+</body>
+
+
+<style>
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 50px;
+  color: white;
+  border: 1px solid rgba(11, 212, 28, 0.651); /* Black border around nav */
+
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px; /* Top margin for nav elements */
+  align-items: center; /* Vertically center list items */
+
+
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  padding: 30px 0;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  
+    
+}
+.nav-links a {
+  transition: transform 1s ease, color 1s ease, border-bottom 1s ease; 
+  text-decoration: none; /* Ensure no underline by default */
+}
+
+
+.nav-links a:hover {
+  border-bottom: 2px solid white;
+  color: #07A748;
+  transform: scale(2.2); /* Scale the element */
+  text-decoration: none;
+  
+}
+
+.menu-icon {
+      display: none;
+      font-size: 34px;
+      color: black; /* Set the color of the icon to black */
+    }
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: white;
+      display: none;
+     
+      
+
+  }
+
+  .nav-links a:hover {
+  border-bottom: 2px solid white;
+  color: #07A748;
+ 
+  
+}
+
+
+  .nav-links li {
+      text-align: center;
+      margin: 10px 0;
+      
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+  #menu-toggle:checked + .menu-icon + .nav-links {
+      display: flex;
+  }
+}
+
+
+  .logo {
+    height: 50px; /* Adjust based on your logo size */}
+
+
+</style>
+
+
+    <div id="page-foss-united-platform" data-path="home" source-type="Generator" data-doctype="Web Page" source-content-type="Page Builder">
+
+        <div class="page-content-wrapper">
+            <!-- breadcrumbs -->
+            <div class="page-breadcrumbs">
+
+
+
+
+
+            </div>
+
+
+            <main class="">
+                <div class="page-header-wrapper">
+                    <div class="page-header">
+
+                    </div>
+
+
+                </div>
+
+                <div class="page_content" id="home">
+                    <section class="section" data-section-idx="1" data-section-template="Home Page - Hero and About Section">
+
+                        <div class="hero-section">
+                            <div class="hero-container container">
+                                <div class="hero-image">
+                                    <div>
+                                        <img alt="FFF Right" class="hero-image" id="image-end" src="files/right.png" />
+                                    </div>
+                                    <div>
+                                        <img alt="Open Doors" class="hero-image" id="image-centre" src="files/PicsArt_06-05-03.02.38.jpg" />
+                                    </div>
+                                    <div>
+                                        <img alt="FFF Left" class="hero-image" id="image-end" src="files/left.png" />
+                                    </div>
+                                </div>
+                                <div class="hero-heading">
+                                    <h4><span class="hero-heading-a">FOSS CEAL </span><span class="hero-heading-b">#Freedom to create</span></h4>
+                                </div>
+                                <div class="button-container">
+                                    <div class="button-category">
+                                        <button class="primary-button" onclick="window.location.href='https://github.com/fossceal'">
+                    Contribute
+                </button>
+                                        <button class="secondary-button" onclick="window.location.href='https://forms.gle/8W5C1p8PrhXcBQ9M9'">
+                    Join us
+                </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-section container" id="about">
+                            <div class="about-section-innerblock">
+                                <div class="about-section-main">
+                                    <p class="about-section-tag">ABOUT</p>
+                                    <div class="about-section-text">
+                                        <h5>FOSS CEAL is a part of International Centre for Free and Open Source Software, enhancing the Free and Open Source Software (FOSS) ecosystem.</h5>
+                                        <p class="about_subtext">Introducing FOSS CEAL (Free and Open Source Software Centre of Excellence Attingal) - a dynamic force within the College of Engineering Attingal, committed to propelling open-source technology and fostering innovation. Through pioneering projects like Wa Ceal Bot and piCloud Self Hosting Server etc., we exemplify the transformative potential of open-source solutions in tackling real-world challenges. Aligned with the International Centre for Free and Open Source Software (ICFOSS), FOSS CEAL collaborates with esteemed industry partners, academic institutions, and open-source communities to facilitate collaboration, share knowledge, and drive impactful change within the technology landscape.
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="goals-section">
+                                    <div class="goals-card">
+                                        <div class="goals-card-header">
+                                            <p class="goals-card-tag">ACHIEVEMENT</p>
+                                            <p class="goals-card-number">01</p>
+                                        </div>
+                                        <div class="goal-content">
+                                            <p class="goal-text">Supported more than 15+ students to prototype their projects</p>
+                                            <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon1.svg" />
+                                        </div>
+                                    </div>
+                                    <div class="goals-card">
+                                        <div class="goals-card-header">
+                                            <p class="goals-card-tag">ACHIEVEMENT</p>
+                                            <p class="goals-card-number">02</p>
+                                        </div>
+                                        <div class="goal-content">
+                                            <p class="goal-text">Interacted with 5000+ students during last year (2023)
+                                            </p>
+                                            <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon2.svg" />
+                                        </div>
+                                    </div>
+                                    <div class="goals-card">
+                                        <div class="goals-card-header">
+                                            <p class="goals-card-tag">ACHIEVEMENT</p>
+                                            <p class="goals-card-number">03</p>
+                                        </div>
+                                        <div class="goal-content">
+                                            <p class="goal-text">FOSS CEAL supported projects were admired by APJAKTU</p>
+                                            <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon3.svg" />
+                                        </div>
+
+                                        
+
+                                    </div>
+                                    <div class="goals-card">
+                                      <div class="goals-card-header">
+                                          <p class="goals-card-tag">ACHIEVEMENT</p>
+                                          <p class="goals-card-number">04</p>
+                                      </div>
+                                      <div class="goal-content">
+                                          <p class="goal-text">A mini server support to host APIs and other services created by students ( Free-of-Cost ).
+
+                                          </p>
+                                          <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon2.svg" />
+                                      </div>
+                                  </div>
+                                  <div class="goals-card">
+                                      <div class="goals-card-header">
+                                          <p class="goals-card-tag">ACHIEVEMENT</p>
+                                          <p class="goals-card-number">05</p>
+                                      </div>
+                                      <div class="goal-content">
+                                          <p class="goal-text">5+ project demos are actively hosted on our own built and maintained servers.
+                                          </p>
+                                          <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon3.svg" />
+                                      </div>
+                                      
+                                </div>
+                                <div class="goals-card">
+                                  <div class="goals-card-header">
+                                      <p class="goals-card-tag">ACHIEVEMENT</p>
+                                      <p class="goals-card-number">06</p>
+                                  </div>
+                                  <div class="goal-content">
+                                      <p class="goal-text">Active presence in trending techs like GenAI, IoT, Cloud Computing
+                                      </p>
+                                      <img alt="Goal Icon" class="goal-icon" src="/files/goal_icon1.svg" />
+                                  </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section class="section" data-section-idx="2" data-section-template="Home Page - Programs Section" id="programs">
+                        <div class="programs-section container">
+                            <div class="programs-container">
+                                <h5 class="programs-section-heading">Programs</h5>
+                                <div class="programs-card-block">
+                                    <a class="program-card" href="https://www.linkedin.com/company/fosscellceal/">
+                                        <div class="program-card-image">
+                                            <img alt="Communities" src="/files/communities.jpg" />
+                                        </div>
+                                        <div>
+                                            <h6>Communities</h6>
+                                        </div>
+                                        <div class="program-card-description">
+                                            <p>Join a community and take part in FOSS CEAL Activities.</p>
+                                        </div>
+                                        <div class="program-card-cta">
+                                            View More
+                                            <i class="ti ti-chevron-right"></i>
+                                        </div>
+                                    </a>
+                                    <a class="program-card" href="https://www.linkedin.com/company/fosscellceal/">
+                                        <div class="program-card-image">
+                                            <img alt="FOSS student Clubs " src="/files/students.jpg" />
+                                        </div>
+                                        <div>
+                                            <h6>Student Mentorships </h6>
+                                        </div>
+                                        <div class="program-card-description">
+                                            <p>Promotes FOSS cultures among students.</p>
+                                        </div>
+                                        <div class="program-card-cta">
+                                            View More
+                                            <i class="ti ti-chevron-right"></i>
+                                        </div>
+                                    </a>
+                                    <a class="program-card" href="https://www.linkedin.com/company/fosscellceal/">
+                                        <div class="program-card-image">
+                                            <img alt="FOSS github" src="/files/gitfoss.jpg" />
+                                        </div>
+                                        <div>
+                                            <h6>FOSS Technologies</h6>
+                                        </div>
+                                        <div class="program-card-description">
+                                            <p>Know more about FOSS Technologies and principles.</p>
+                                        </div>
+                                        <div class="program-card-cta">
+                                            View More
+                                            <i class="ti ti-chevron-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section" data-section-idx="3" data-section-template="Home Page - Events">
+                        <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.46.0/tabler-icons.min.css" rel="stylesheet" />
+
+                        <div class="events-section container" id="events">
+                            <!-- Flagship Events Section -->
+                            <div class="events-subsection">
+                                <h5>Flagship Events</h5>
+                                <div class="events-block">
+                                    <a class="flagship-event-card" href="/indiafoss/2024">
+<img alt="IndiaFOSS" class="flagship-card-image" src="assets/GOVIND_FOSS-removebg-preview.png"/>
+<h6 class="flagship-card-heading">FOSSx (TBA)</h6>
+<p class="flagship-card-desc">FOSSx is a national FOSS conference in associaation with FOSSx Trivandrum. (Coming soon) </p>
+<p class="flagship-card-cta">
+                        View More
+                        <i class="ti ti-chevron-right"></i>
+</p>
+</a>
+                                    <a class="flagship-event-card" href="/fhack/2024">
+<img alt="IndiaFOSS" class="flagship-card-image" src="assets/GOVIND_FOSS-removebg-preview.png"/>
+<h6 class="flagship-card-heading">F-Hack</h6>
+<p class="flagship-card-desc">FOSS Hack is our flagship hackathon to promote FOSS by bringing enthusiasts
+                        together to build or extend FOSS projects.</p>
+<p class="flagship-card-cta" href="">
+                            View More
+                            <i class="ti ti-chevron-right"></i>
+</p>
+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section" data-section-idx="4" data-section-template="Home Page - Team">
+                        <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.46.0/tabler-icons.min.css" rel="stylesheet" />
+
+                        <div class="team-section container" id="team">
+                            <div class="team-container">
+                                <div class="team-section-header">
+                                    <h5>The Team</h5>
+                                    <a href="team">Meet the Workforce ↗</a>
+                                </div>
+                                <div class="team-block">
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/ASWIN_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Aswin Thulasi R</h6>
+                                            <p>Chief FOSS Ambassador</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/THAMPI_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Anu Thampi A S</h6>
+                                            <p>Deputy CFA</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/SREEJITH_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Sreejith I V</h6>
+                                            <p>Secratary</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/GOVIND_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Govind S R</h6>
+                                            <p>Technical Lead</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/abhisheknew.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Abhishek S M</h6>
+                                            <p>Design Lead</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/ESBEE_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Nandhana S B</h6>
+                                            <p>Accounts Manager</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/HARI_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Harinandan R P</h6>
+                                            <p>Media Lead</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/HAVIS_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Havis V H</h6>
+                                            <p>Technical Developer and Project Lead</p>
+                                        </div>
+                                    </div>
+                                    <div class="team-card">
+                                        <div class="team-card-image">
+                                            <img alt="Team Member" src="/assets/NANDHANA_FOSS-removebg-preview.png" />
+                                        </div>
+                                        <div class="team-card-details">
+                                            <h6>Nandhana U</h6>
+                                            <p>Women in Tech Lead</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section" data-section-idx="5" data-section-template="Home Page - Industry Partnership">
+                        <div class="ip-section container">
+                            <div class="ip-container">
+                                <div class="ip-content-block">
+                                    
+                                    <div>
+                                        <h5>Industry Partnership</h5>
+                                        <p>The foundation was started as a collaboration with College of Engineering Attingal and ICFOSS. Currently we have other partners like Techtro, Electrino and Alchemy departmental and other independent clubs of College of Engineering Attingal and KSUM
+                                            and we invite more organisations to join the movement.</p>
+                                    </div>
+                                    <a href="https://www.linkedin.com/company/fosscellceal/">View Current Partners ↗</a>
+                                </div>
+                                <div class="ip-partners-block">
+                                    <div class="feature-partners">
+                                        <img alt="ceal" src="files/ceal_logo.jpg" />
+                                        <img alt="icfoss" src="files/icfoss_logo.jpg" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section" data-section-idx="6" data-section-template="Home Page - Contact">
+                        <div class="contact-section container">
+                            <!-- <div class = "container"> -->
+                            <div class="contact-container">
+                                <div class="newsletter-block">
+                                    <div class="newsletter-details">
+                                        <h5>Follow us</h5>
+                                        <p>Follow our instagram handle and linked in for latest updates and news.
+                                        </p>
+                                    </div>
+                                    <button class="primary-button">
+<a href="https://www.instagram.com/fossceal/">Follow</a>
+</button>
+                                </div>
+                                <div class="vertical-separator"></div>
+                                <hr class="horizontal-separator" />
+                                <div class="contacts-block">
+                                    <h5>Get in Touch</h5>
+                                    <p>
+                                        Write to us at <a href="mailto:www.foss@ceattingal.ac.in"><span class="__cf_email__" data-cfemail="67010812090306130e0809270108141412090e13020349081500">[email&#160;protected]</span><br/><br/> Join us <a href="https://t.me/c/1882042059/564"> on Telegram</a>. <br/><br/>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="page-footer"></div>
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.46.0/tabler-icons.min.css" rel="stylesheet" />
+
+    <footer>
+        <div class="footer-section container">
+            <div class="footer-container">
+                <div class="footer-element-logo">
+                    <img alt="FOSS United Logo" src="/files/foss_main@3x.png" />
+                </div>
+                <div class="source-code-link">
+                    <a href="https://github.com/aswinthulasir/foss_site">
+<i class="ti ti-brand-github"></i>
+                    View Source Code
+                </a>
+                </div>
+                <div class="footer-element-items">
+                    <div class="footer-link-category">
+                        <div class="footer_parent_label">
+                            <p>About</p>
+                            <div class="footer-category-items">
+                                <a class="footer-link" href="#about">About FOSS CEAL</a>
+                                <a class="footer-link" href="https://t.me/c/1882042059/564">Public Chat</a>
+                                <a class="footer-link" href="https://forms.gle/8W5C1p8PrhXcBQ9M9">Forum</a>
+                            </div>
+                        </div>
+                        <div class="footer_parent_label">
+                            <p>Policy</p>
+                            <div class="footer-category-items">
+                               
+                                <a class="footer-link" href="https://forms.gle/SDEeKp3fAxqQKnrTA">Account Deletion</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="address-element">
+                        <p>FOSS CEAL</p>
+                        <div class="ql-editor read-mode">
+                            <p>College of Engineering, Attingal</p>
+                            <p> Near KSRTC Bus stand and Samad hospital, Attingal</p> <p>Thiruvananthapuram, Pin: 695101, Kerala, India</p>
+                        </div>
+                        <div class="social-media-credits">
+                            <div class="social-category-items">
+                                <a class="footer-link" href="https://www.linkedin.com/company/fosscellceal/">
+<img alt="" src="/files/LinkedIn (1).svg"/>
+</a>
+                                <a class="footer-link" href="https://youtu.be/IBmL51HH2x4?si=OMgVPM-sC5kk8NDx">
+<img alt="" src="/files/YouTube logo.svg"/>
+</a>
+                                
+
+                            </div>
+                            <div class="powered-by">
+                                <p> Hosted in piCloud </p>
+                                <p>Inspired from FOSS United</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <style data-web-template='FOSS Footer'>
+        footer {
+            background: var(--Foundation-Code-Night-code-night-500, #1A1A1A);
+        }
+
+        .footer-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .footer-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            padding: 4rem 0rem;
+            width: 100%
+        }
+
+        .footer-container p {
+            color: hsl(var(--clr-libre-white-600));
+        }
+
+        .footer-container a {
+            color: hsl(var(--clr-libre-white-600));
+            font-weight: 500;
+        }
+
+        .source-code-link a {
+            font-weight: var(--fw-normal);
+        }
+
+        .footer-container a:hover {
+            color: hsl(var(--clr-foss-mint-500));
+            text-decoration: none;
+        }
+
+        .footer-element-logo>img {
+            max-height: 2.5rem;
+        }
+
+        .footer-element-items {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+
+        .footer-link-category {
+            display: flex;
+            gap: 2.5rem
+        }
+
+        .footer_parent_label {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            font-weight: var(--fw-medium);
+        }
+
+        .footer_parent_label p {
+            margin: 0;
+            color: hsl(var(--clr-libre-white-600));
+        }
+
+        .footer_parent_label>a {
+            font-weight: var(--fw-medium);
+            margin: 0;
+        }
+
+        .footer-category-items {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.5rem;
+        }
+
+        .footer-category-items a {
+            font-size: var(--text-sm);
+            color: hsl(var(--clr-open-gray-200));
+        }
+
+        .address-element {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .address-element p {
+            text-align: right;
+            font-size: var(--text-sm);
+        }
+
+        .address-element a {
+            font-size: var(--text-sm);
+            color: hsl(var(--clr-libre-white-600));
+        }
+
+        .social-media-credits {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .social-category-items {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        @media screen and (max-width: 768px) {
+            .footer-section {
+                padding: 0rem 2rem 0rem 2rem;
+            }
+            .footer-container {
+                flex-direction: column;
+                padding: 2rem 0rem;
+                font-size: var(--text-xs);
+            }
+            .footer-element-items {
+                grid-template-columns: 1fr;
+                gap: 2rem
+            }
+            .footer-link-category {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 1.25rem;
+            }
+            .footer-element-logo>img {
+                max-height: 2rem;
+            }
+            .address-element p {
+                text-align: left;
+            }
+            .social-category-items {
+                justify-content: flex-start;
+            }
+        }
+    </style>
+    <!-- js should be loaded in body! -->
+
+
+</html>
